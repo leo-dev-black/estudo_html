@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dimensionais</title>
+    <link rel="shortcut icon" href="/imagem/gor.ico" type="imagem/x-icon" >
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1> <!-- 'Imagens' Sempre do menor para o maior-->
+    <picture>
+        <source media="(min-width:1050px)" srcset="/imagem/quadrado_1000.png">
+        <source media="(min-width: 750px )" srcset="/imagem/quadrado_700.png">
+        <img src="/imagem/quadrado_300.png" alt="quadrado grande">
+    </picture>
+    <h1>Audios</h1>
+    <h2>Reproduzindo aúdios</h2>
+    <audio src="/midias/som.mp3" autoplay controls loop></audio>
+    <h3>Segunda forma de adicionar aúdios:</h3>
+    <p style="color: red;" >Está embutido e escondido:</p>
+    <audio autoplay preload="auto">
+        <source src="/midias/som.mp3" type="audio/mp3"> <!--Esse carrega sem controles TOP!!!-->
+    </audio>
+
+</body>
+</html>
