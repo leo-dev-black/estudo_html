@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+
+    table{
+        border: 6px 6px black;
+        width: 300px;
+        height: 300px;
+        border-collapse: collapse;        
+             
+    }
+
+    tr.linha{
+        background-color: aquamarine;
+    }
+
+    td{
+        border: 2px solid black;
+        padding: 8px;
+        text-align: center;
+        vertical-align: middle;
+        font: bold;
+    }
+
+    .numero{
+        text-align: right;
+    }
+
+</style>
+<body>
+    <h1>Minha Tabela em Html</h1>
+    <table>
+        <tr class="linha">
+            <td>A1</td>
+            <td><strong>B1</strong></td>
+            <td>C1</td>
+        </tr>
+        <tr>
+            <td>A2</td>
+            <td>B2</td>
+            <td class="numero">C2</td>
+        </tr>
+        <tr class="linha">
+            <td>A3</td>
+            <td>B3</td>
+            <td class="numero">C3</td>
+        </tr>
+        <tr>
+            <td>A4</td>
+            <td>B4</td>
+            <td>C4</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
