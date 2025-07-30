@@ -16,10 +16,20 @@
             font-family: Arial, Helvetica, sans-serif;
         }
 
+        tbody > tr:nth-child(even){
+            background-color: rgba(100, 148, 237, 0.747);
+            font-weight: bold;
+        }
+
+        tbody > tr:nth-child(odd){
+            background-color: rgba(137, 156, 175, 0.432);
+        }
+
         table{
             width: 480px;
             border-collapse: collapse;
             border: 8px;
+            position: relative;
         }
 
         td, th{
@@ -30,14 +40,21 @@
 
         thead, tfoot{
             background-color: rgba(85, 80, 80, 0.753);
-            color: black;
+            color: white;
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top:-1px;
+            background-color:  rgb(41, 40, 40);
+
         }
 
         .direita{
             float: center;
             height: 100px;
             width: 100px;
-            margin-left: 10px;
+            margin-left:27px;
             margin-bottom: 10px;
         }
 
@@ -72,7 +89,7 @@
 
 </head>
 <body>
-    <h1>Uso de Tabelas Grandes!!!</h1>
+    <h1>&#x1F4D0 Uso de Tabelas Grandes!!! &#x1F4CF</h1>
 
     <div class="q1">
         <h2>Imagem aqui</h2>
@@ -81,7 +98,7 @@
         <h3>Compre mais</h3><br>
         <h3>Compre mais</h3><br>
         <h3>Compre mais</h3><br>
-        <p class="letra">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus doloremque magnam porro, aut rerum cumque nihil quasi pariatur veniam possimus inventore consequatur maxime explicabo tempore fugit, nostrum iure nisi quia?</p>
+        <p class="letra">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus doloremque magnam porro, aut rerum cumque nihil quasi pariatur veniam possimus inventore consequatur maxime explicabo tempore fugit, nostrum iure nisi quia? Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, obcaecati itaque. Perspiciatis tempora facilis, voluptatum obcaecati quasi, quaerat magni tenetur totam exercitationem aperiam, ullam perferendis natus illum. Non, impedit architecto? Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quas saepe maiores voluptas iusto tempore iure nemo odit culpa, beatae officiis commodi debitis laboriosam expedita? Modi consequuntur autem impedit nesciunt! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda obcaecati, aliquam quas distinctio eius esse dolor sed harum cupiditate numquam. Obcaecati exercitationem iure odio ipsum quos commodi a saepe rem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, dignissimos distinctio nobis, quas est maxime doloribus necessitatibus in numquam ipsa dolorem deleniti id inventore veniam accusamus. Ducimus, iusto qui. Quidem! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et in veritatis quis facere dolore maxime fugiat labore sapiente consequuntur vel ea praesentium amet eos voluptatibus, consectetur, dolor tempora, natus nam!</p>
     </div> <br>
 
     <table>
@@ -101,7 +118,7 @@
         -->
         <tr>
             <th escope="col" >Estado</th>
-            <th edcope="col" style="width: 70px;">População</th>
+            <th edcope="col" style="width: 90px;">População</th>
             <th>Obs.:</th>
         </tr>
         </thead>
@@ -276,7 +293,7 @@
             <tr>
                 <th escope="row">Total de Habitantes</th>
                 <td><strong>210 147 125</strong></td>
-                <td>00000</td>
+                <td>Cidades Grandes!!!</td>
             </tr>
         </tfoot>
     </table>
