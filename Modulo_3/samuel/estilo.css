@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Rammetto+One&display=swap');
+
+@font-face {
+    font-family:'letra' ;
+    src: url('fontes/fonte_3/SPORT\ GAME\ PERSONAL\ USE\ ONLY!.ttf');
+}
+
+@font-face {
+    font-family:'jersey';
+    src: url('fontes/fonte_3/Jersey\ 716.ttf');
+}
+
+:root{
+    --fonth2: "Luckiest Guy", cursive;
+    --fonth2_1:'letra';
+    --fonth2_2:'jersey';
+}
+
+header > h1{
+    padding: 20px;
+    padding-bottom: 10px;
+    background-image:linear-gradient(to right, rgb(6, 6, 206), transparent);
+    margin: 15px;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+    font-family: var(--fonth2_2);
+    text-align: center;
+    font-size: 2.3em;
+
+}
+
+
+
+body{
+    background-image:linear-gradient( 45deg, rgba(37, 55, 212, 0.938), rgba(10, 165, 236, 0.904))
+
+}
+
+
+main{
+    background-color: white;
+    width: 450px;
+    
+    border-radius: 10px;
+    margin: auto;
+    padding:5px;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.521);
+      
+}
+
+section > article > h2{
+    font-family: var(--fonth2_2);
+    font-size: 25px;
+    margin-left: 20px;  
+    color: rgba(15, 15, 245, 0.829);
+    text-shadow:1px 1px 1px rgba(0, 0, 0, 0.527) ;  
+}
+
+section > article > div > img.imag_2{
+    height: 300px;
+    width: 450px;
+    margin: center;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.555);
+}
+
+section article div a img.imag_2{
+    height: 300px;
+    width: 450px;
+    margin: center;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.555);
+}
+
+
+
+section > article > p{
+    margin: 15px;
+    text-indent: 20px;
+    text-align: justify;
+    line-height: 1.5em;
+    font-weight: bold;
+}
+
+a.corrente{
+    text-decoration: none;
+    font-variant-caps: titling-caps;
+    color: blue;
+}
+
+a.corrente:hover{
+    background-color: rgba(4, 4, 199, 0.808);
+    color: white;
+    text-decoration: underline;
+}
+
+/*.leitura{
+    font-size: 1em;
+    height: 340px;
+    width: 390px;    
+}*/
+
+ul > li{
+    display: inline;
+}
+
+nav > ul > li > a{
+    text-decoration: none;
+    font-family: var(--fonth2);
+    padding: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+}
+
+nav > ul > li > a:hover{
+    height: 10px;
+    width: 20px;
+    background-color:rgb(25, 4, 212);
+    border-radius: 10px;
+    color: white;    
+}
+
+.img_1{
+    
+    height: 30px;
+    width: 30px;
+    align-items: center;
+    padding: 0px; 
+}
+
+.tela{
+    width: 450px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.623);
+    height: auto;
+}
+
+footer{
+    background-color: lightslategray;
+    color: white;
+    font-family: var(--fonth2_2);
+    text-shadow: 1px 1px 1px blue;
+    text-align: center;
+    padding: 8px;
+}
+
+footer > p{
+
+
+}
